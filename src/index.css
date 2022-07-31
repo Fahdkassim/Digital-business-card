@@ -54,7 +54,12 @@ body {
 }
 .btn-email {
   margin-right: 17px;
- 
+  width: 115px;
+  height: 34px;
+}
+.btn-linkedin{
+  width: 115px;
+  height: 34px;
 }
 
 .main-content-container {

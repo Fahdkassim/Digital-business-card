@@ -8,10 +8,10 @@ export default function Footer(){
 
     return (
         <div className="footer-container">
-            <img className="twitter" src={twitter} alt="twitter"></img>
-            <img className="facebook" src={facebook} alt="facebook"></img>
-            <img className="instagram" src={instagram} alt="instagram"></img>
-            <img className="github" src={github} alt="github"></img>
+            <a href="https://twitter.com/fahdkassim"><img className="twitter" src={twitter} alt="twitter"></img></a>
+            <a href="https://www.facebook.com/fahd.kassim"><img className="facebook" src={facebook} alt="facebook"></img></a>
+            <a href="https://www.instagram.com/fahdkassim/"><img className="instagram" src={instagram} alt="instagram"></img></a>
+            <a href="https://github.com/Fahdkassim"><img className="github" src={github} alt="github"></img></a>
         </div>
     )
 }

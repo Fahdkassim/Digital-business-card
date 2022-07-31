@@ -6,8 +6,8 @@ export default function Buttons(){
 
     return (
         <div className="btn-container">
-            <img className="btn-email" src={buttonEmail}/>
-            <img className="btn-linkedin" src={buttonLinkedin}/>
+            <a href="mailto:fahdkassim@gmail.com"><img className="btn-email" src={buttonEmail}/></a>
+            <a href="https://www.linkedin.com/in/fahd-hassaan-963112100/overlay/contact-info/"><img className="btn-linkedin" src={buttonLinkedin}/></a>
         </div>
     )
 }
